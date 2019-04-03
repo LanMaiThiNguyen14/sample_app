@@ -19,6 +19,7 @@ AllCops:
     - "spec/**/*"
     - "script/rails"
     - "config/**/*"
+    - "Rakefile"
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
