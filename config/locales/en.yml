@@ -29,14 +29,41 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+
 en:
+   header:
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+  footer:
+    content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+    about: "About"
+    contact: "Contact"
+    new: "News"
+  static_pages:
+    home:
+      title: "Home"
+      welcome: "Welcome to the Sample App"
+      content_html: '<h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+        </h2>'
+      signup: "Sign up now!"
+      logo: "Rails Logo"
   hello: "Hello world"
   static_pages:
     home:
       title: "Home"
-      content_html: '<p>This is the home page for the
-      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.</p>'
+      welcome: "Welcome to the Sample App"
+      content_html: '<h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+        </h2>'
+      signup: "Sign up now!"
+      logo: "Rails Logo"
     help:
       title: "Help"
       content_html: '<p>
@@ -58,6 +85,11 @@ en:
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
     </p>'
+    users:
+    new:
+      title: "Sign Up"
+      content: "This will be a signup page for new users."
   layouts:
     application:
       page_title: " Ruby on Rails Tutorial Sample App"
+      name: "Sample App"
