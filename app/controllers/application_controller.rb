@@ -16,6 +16,5 @@ class ApplicationController < ActionController::Base
     {locale: I18n.locale}
   end
 
-  def contact
-  end
+  def contact; end
 end
