@@ -1,0 +1,7 @@
+user:
+  name:
+    max_legth : 50
+  email:
+    max_legth : 255
+  password:
+    min_legth: 6
