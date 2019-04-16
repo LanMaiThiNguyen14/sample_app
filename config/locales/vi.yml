@@ -47,9 +47,14 @@ vi:
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
     users:
-      new:
-        title: "Đăng Ký"
-        content: "Đây là trang đăng ký cho người sử dụng mới"
+    new:
+      title: "Đăng Ký"
+      content: "Đây là trang đăng ký cho người sử dụng mới"
+      create: "Tạo tài khoản"
+      success_ac: "Chào mừng bạn đến với Sample App!"
+      fail_ac: "Tạo tài khoản không thành công"
+    show:
+      error: "Không tìm thấy người dùng"
   layouts:
     application:
       page_title: " Sản phẩm mẫu của Ruby On Rails"
