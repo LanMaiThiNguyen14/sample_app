@@ -89,6 +89,11 @@ en:
     new:
       title: "Sign Up"
       content: "This will be a signup page for new users."
+        create: "Create your account"
+      success_ac: "Welcome to the Sample App!"
+      fail_ac: "Create account don't success"
+    show:
+      error: "Don't find user"
   layouts:
     application:
       page_title: " Ruby on Rails Tutorial Sample App"

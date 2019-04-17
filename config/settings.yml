@@ -5,3 +5,5 @@ user:
     max_legth : 255
   password:
     min_legth: 6
+user_helper:
+  size_gravater: 80
