@@ -3,6 +3,11 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    user: "Người dùng"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    account: "Account"
   footer:
     content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                       by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
@@ -59,3 +64,10 @@ vi:
     application:
       page_title: " Sản phẩm mẫu của Ruby On Rails"
       name: "App Mẫu"
+sessions:
+    login: "Đăng nhập"
+    new_user: "Người sử dụng mới?"
+    signup: "Đăng nhập ngay!"
+    error: "Email/password không so khớp"
+    success: "Đăng nhập thành công"
+
