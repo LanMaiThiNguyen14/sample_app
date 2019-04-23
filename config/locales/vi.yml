@@ -70,4 +70,4 @@ sessions:
     signup: "Đăng nhập ngay!"
     error: "Email/password không so khớp"
     success: "Đăng nhập thành công"
-
+    remember_me_html: "<span>Lưu lại trên máy tính này</span>"

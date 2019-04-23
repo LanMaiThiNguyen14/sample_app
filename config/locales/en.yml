@@ -109,4 +109,4 @@ en:
     signup: "Sign up now!"
     error: "Invalid email/password combination"
     success: "Login Successful"
-
+    remember_me_html: "<span>Remember me on this computer</span>"
