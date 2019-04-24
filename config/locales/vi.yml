@@ -25,14 +25,6 @@ vi:
            </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
-
-  static_pages:
-    home:
-      title: "Trang chủ"
-      content_html: '</p>Đây là trang chủ của
-        <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
-        </p>'
-
     help:
       title: "Trợ giúp"
       content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
@@ -51,7 +43,8 @@ vi:
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
-    users:
+
+  users:
     new:
       title: "Đăng Ký"
       content: "Đây là trang đăng ký cho người sử dụng mới"
@@ -60,11 +53,27 @@ vi:
       fail_ac: "Tạo tài khoản không thành công"
     show:
       error: "Không tìm thấy người dùng"
+    edit:
+      title: "Thay đổi thông tin người dùng"
+      button_text: "Lưu lại thay đổi"
+      name_page: "Cập nhật hồ sơ của bạn"
+      change: "Thay đổi"
+    update:
+      success: "Đã cập nhật hồ sơ"
+    logged_in_user:
+      unsuccess: "Please login"
+    index:
+      title: "Tất cả người dùng"
+      sure: "Bạn có chắc chắn không?"
+    destroy:
+      success: "Người dùng đã được xóa"
+      unsuccess: "Xóa người dùng không thành công"
+      delete: "Xóa"
   layouts:
     application:
       page_title: " Sản phẩm mẫu của Ruby On Rails"
       name: "App Mẫu"
-sessions:
+  sessions:
     login: "Đăng nhập"
     new_user: "Người sử dụng mới?"
     signup: "Đăng nhập ngay!"
