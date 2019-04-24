@@ -1,10 +1,9 @@
-user:
-  name:
-    max_legth : 50
-  email:
-    max_legth : 255
-  password:
-    min_legth: 6
+user_valid:
+  max_length_name: 50
+  max_length_email: 255
+  min_length_password: 6
 user_helper:
   size_gravater: 80
+  size_gravater_custom: 50
 checkbox: "1"
+

@@ -3,8 +3,9 @@
 
 $gray-light: #777;
 $gray-medium-light: #eaeaea;
-$gray : #555;
-$gray-darker : #222;
+$gray: #555;
+$gray-darker: #222;
+$white: #fff;
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -63,13 +64,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: $white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: #fff;
+    color: $white;
     text-decoration: none;
   }
 }
@@ -99,6 +100,7 @@ footer {
     }
   }
 }
+
 /* miscellaneous */
 
 .debug_dump {
@@ -108,49 +110,57 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
+
 /* sidebar */
+
 aside {
-section.user_info {
-margin-top: 20px;
+  section.user_info {
+    margin-top: 20px;
+  }
+  section {
+    padding: 10px 0;
+    margin-top: 20px;
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1;
+    }
+    h1 {
+      font-size: 1.4em;
+      text-align: left;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0px;
+    }
+  }
 }
-section {
-padding: 10px 0;
-margin-top: 20px;
-&:first-child {
-border: 0;
-padding-top: 0;
-}
-span {
-display: block;
-margin-bottom: 3px;
-line-height: 1;
-}
-h1 {
-font-size: 1.4em;
-text-align: left;
-letter-spacing: -1px;
-margin-bottom: 3px;
-margin-top: 0px;
-}
-}
-}
+
 .gravatar {
-float: left;
-margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
+
 .gravatar_edit {
-margin-top: 15px;
+  margin-top: 15px;
 }
+
 /* forms */
+
 input, textarea, select, .uneditable-input {
-border: 1px solid #bbb;
-width: 100%;
-margin-bottom: 15px;
-@include box_sizing;
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
 }
+
 input {
-height: auto !important;
+  height: auto !important;
 }
+
 #error_explanation {
   color: red;
   ul {
@@ -164,7 +174,7 @@ height: auto !important;
   .form-control {
     color: $state-danger-text;
   }
-
+}
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
@@ -177,5 +187,16 @@ height: auto !important;
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
   }
 }
