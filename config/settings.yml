@@ -6,4 +6,10 @@ user_helper:
   size_gravater: 80
   size_gravater_custom: 50
 checkbox: "1"
-
+Post:
+  num_post: 5
+  size_image: 5
+  resize_height: 400
+  resize_width: 400
+  content_size: 140
+  avatar_size: 50
