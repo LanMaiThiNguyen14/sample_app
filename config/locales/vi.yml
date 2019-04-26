@@ -25,6 +25,7 @@ vi:
            </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
+      micro: "Micropost Feed"
     help:
       title: "Trợ giúp"
       content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
@@ -80,3 +81,22 @@ vi:
     error: "Email/password không so khớp"
     success: "Đăng nhập thành công"
     remember_me_html: "<span>Lưu lại trên máy tính này</span>"
+  microposts:
+    micro:
+      post_ago: "Đăng cách đây "
+      title: "Microposts"
+      created: "Micropost đã được tạo!"
+      nocreated: "Không tạo được micropost"
+      alert: "Kích thước lớn nhất của file là 5MB. Hãy chọn file có kích cỡ nhỏ hơn"
+    controller:
+      delete: "Đã xóa micropost"
+      size_image_content: "nên ít hơn 5MB"
+      undelete: "Xóa không thành công"
+    shared:
+      user_info:
+        view: "Xem hồ sơ của tôi"
+      micro:
+        pla_form: "Soạn bài viết mới ..."
+        post: "Đăng"
+      error:
+        contain: "form chứa"
