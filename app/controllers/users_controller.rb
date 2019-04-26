@@ -27,6 +27,9 @@ class UsersController < ApplicationController
   def show
     @microposts = @user.microposts.paginate(page: params[:page],
                                             per_page: Settings.Post.num_post)
+    @follow_user = current_user.active_relationships.build
+    @unfollow_user = current_user.active_relationships.find_by(followed_id:
+                                                                   @user.id)
   end
 
   def edit; end
@@ -58,6 +61,13 @@ class UsersController < ApplicationController
     return if @user
     redirect_to root_path
     flash[:danger] = t ".error"
+  end
+
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t ".logged_in_user.unsuccess"
+    redirect_to login_url
   end
 
   def correct_user

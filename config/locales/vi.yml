@@ -70,6 +70,9 @@ vi:
       success: "Người dùng đã được xóa"
       unsuccess: "Xóa người dùng không thành công"
       delete: "Xóa"
+    show_follow:
+      view_my_profile: "view my profile"
+      micropost: "Microposts"
   layouts:
     application:
       page_title: " Sản phẩm mẫu của Ruby On Rails"
@@ -92,7 +95,7 @@ vi:
       delete: "Đã xóa micropost"
       size_image_content: "nên ít hơn 5MB"
       undelete: "Xóa không thành công"
-    shared:
+  shared:
       user_info:
         view: "Xem hồ sơ của tôi"
       micro:
@@ -100,3 +103,18 @@ vi:
         post: "Đăng"
       error:
         contain: "form chứa"
+  relationships:
+      stats:
+        following:
+          one: "1 Following"
+          other: "%{count} Following"
+        followers:
+          one: "1 Follower"
+          other: "%{count} Follower"
+      form:
+        follow:
+          submit: "Follow"
+        unfollow:
+          submit: "Unfollow"
+      following: "following"
+      follower: "follower"
