@@ -72,6 +72,9 @@ en:
       success: "User deleted"
       unsuccess: "User did not delete"
       delete: "Delete"
+    show_follow:
+      view_my_profile: "view my profile"
+      micropost: "Microposts"
   layouts:
     application:
       page_title: "Ruby on Rails Tutorial Sample App"
@@ -102,3 +105,18 @@ en:
         post: "Post"
       error:
         contain: "The form contains"
+    relationships:
+      stats:
+        following:
+          one: "1 Following"
+          other: "%{count} Following"
+        followers:
+          one: "1 Follower"
+          other: "%{count} Follower"
+      form:
+        follow:
+          submit: "Follow"
+        unfollow:
+          submit: "Unfollow"
+      following: "following"
+      follower: "follower"
